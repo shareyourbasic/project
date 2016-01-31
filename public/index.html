@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Share your basic uses IAMNOTBASIC viral campaing to give back!">
+    <meta name="author" content="Zafer Elcik">
+    <meta name="keywords" content="basic,gift,viral,share">
+
+    <title>Share Your Basic</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+<!-- Page Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <div class="col-md-12">
+                <img width="100%;"
+                     style="max-width: 400px; margin-left: auto; margin-right: auto; display: block; margin-top: -35px;"
+                     src="./img/logo.png"
+                />
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <p class="info"><a href="http://www.iamnotbasic.com">IAMNOTBASIC</a> kaliteli basic tişörtler üreten ve
+                    satan bir web
+                    girişimidir. IAMNOTBASIC yeni ürünlerini piyasaya sürmeden önce eski ürünlerini düzenlediği viral
+                    kampanya ile dağıtmaya başladı. Sisteme mailini bırakan her 50 arkadaşınız için 12 tişört hediye
+                    ediyor. Biz de düşündük ki bu kampanyayı ve tişörtleri iyilik yapmak için kullanabiliriz. Yazdığımız
+                    sistem sayesinde bizim üstümüzden mail bıraktığınızda kazandığımız tişörtler Lösev, Çocuk Esirgeme
+                    Kurumu ve Darüşafaka'daki çocuklara gidecek. Amacımız 24 saat içinde 120 tişörte ulaşmak!</br>
+                    Katkılarından ötürü Sercan Değirmenci'ye çok teşekkür ederiz.
+                </p>
+
+                <div class="videocnt">
+                    <a class="lightbox" href="#video">
+                        <button type="button" class="btn btn-info videobtn">Kısa Videomuzu İzleyin</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+
+
+            <div class="col-md-6 col-md-offset-3">
+                <h1 class="greenbig centered">Hemen emailini bırak bir</br>tişört hediye et!</h1>
+
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+                         aria-valuenow="{{.ProgressValue}}" aria-valuemin="0"
+                         aria-valuemax="100" style="width:{{.ProgressValue}}%">
+                    </div>
+                </div>
+                <div class="number"><b>{{.CurrentTshirt}} Tişörte Ulaşıldı!</b></div>
+                <div class="aim"><b>{{.TargetTshirt}}</b></div>
+            </div>
+
+            <div class="col-md-4" style="clear: both;"></div>
+            <div class="col-md-4 videocnt" style="margin-top: -150px; margin-bottom: 0px">
+                <a href="{{.CurrentLink}}">
+                    <button type="button" class="btn btn-success btn-lg {{.DisableClass}}" style="margin-bottom: 0px; ">
+                        Yardım Etmek İstiyorum!
+                    </button>
+                </a>
+            </div>
+            <div class="col-md-4"></div>
+
+            <div class="col-md-12 time centered" id="getting-started" style="clear: both;">24:00:00</div>
+
+            <div class="col-md-1 col-sm-0" style="clear: both; margin-left: 50px;"></div>
+
+
+            <div class="col-md-3 col-sm-4 centered"><img src="./img/losev_logo.png" width="80%" height="auto"></div>
+            <div class="col-md-3 col-sm-4 centered"><img src="./img/cocuk-esirgeme-kurumu.png"
+                                                         style="margin-left: -4px;" width="100%" height="auto"></div>
+            <div class="col-md-3 col-sm-4 centered"><img src="./img/DarussafakaEgitimKurumlari.jpg"
+                                                         style="margin-left: -9px;" width="80%" height="auto"></div>
+            <div class="col-md-1 ">
+                <div class="lightbox-target" id="video">
+                    <div class="video-container" style=" overflow: hidden; max-width: 535px; max-height: 285px;">
+                        <iframe style="position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;" src="https://www.youtube.com/embed/Nwx1znW_HK4" frameborder="0" width="535" height="285"></iframe>
+                    </div>
+                    <a class="lightbox-close" href="#"></a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- jQuery -->
+<script src="js/jquery.countdown.min.js"></script>
+
+<script type="text/javascript">
+    $("#getting-started")
+            .countdown("2016/1/17 23:00:00", function (event) {
+                if (event.offset.days > 0) {
+                    $(this).html('24:00:00')
+                }
+                else {
+                    $(this).text(
+                            event.strftime('%H:%M:%S')
+                    );
+                }
+            });
+</script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
