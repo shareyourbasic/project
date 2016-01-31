@@ -1,0 +1,131 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/astaxie/beego",
+			"repository": "https://github.com/astaxie/beego",
+			"revision": "fb7314f8ac86b83ccd34386518d97cf2363e2ae5",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/codegangsta/inject",
+			"repository": "https://github.com/codegangsta/inject",
+			"revision": "33e0aa1cb7c019ccc3fbe049a8262a6403d30504",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/codegangsta/negroni",
+			"repository": "https://github.com/codegangsta/negroni",
+			"revision": "c7477ad8e330bef55bf1ebe300cf8aa67c492d1b",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/gin-gonic/gin",
+			"repository": "https://github.com/gin-gonic/gin",
+			"revision": "52fcc5dbf6e94df33ad313858fb94b713e9d1b4a",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/go-martini/martini",
+			"repository": "https://github.com/go-martini/martini",
+			"revision": "c8e367e964da242333b34f0cc2b01b91e16fa52a",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/gocraft/web",
+			"repository": "https://github.com/gocraft/web",
+			"revision": "054fd625232f8041af2c88320633047eb0574dc0",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/julienschmidt/httprouter",
+			"repository": "https://github.com/julienschmidt/httprouter",
+			"revision": "21439ef4d70ba4f3e2a5ed9249e7b03af4019b40",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/labstack/echo",
+			"repository": "https://github.com/labstack/echo",
+			"revision": "ec83e2407f257c0fa7b5ee17727d175d9d6e9f1a",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/labstack/gommon/color",
+			"repository": "https://github.com/labstack/gommon",
+			"revision": "0764305a9af697a66da7bda2ea52672b7eca5a06",
+			"branch": "master",
+			"path": "/color"
+		},
+		{
+			"importpath": "github.com/labstack/gommon/log",
+			"repository": "https://github.com/labstack/gommon",
+			"revision": "0764305a9af697a66da7bda2ea52672b7eca5a06",
+			"branch": "master",
+			"path": "/log"
+		},
+		{
+			"importpath": "github.com/manucorporat/sse",
+			"repository": "https://github.com/manucorporat/sse",
+			"revision": "fe6ea2c8e398672518ef204bf0fbd9af858d0e15",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mattn/go-colorable",
+			"repository": "https://github.com/mattn/go-colorable",
+			"revision": "3dac7b4f76f6e17fb39b768b89e3783d16e237fe",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mattn/go-isatty",
+			"repository": "https://github.com/mattn/go-isatty",
+			"revision": "56b76bdf51f7708750eac80fa38b952bb9f32639",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/thoas/stats",
+			"repository": "https://github.com/thoas/stats",
+			"revision": "54ed61c2b47e263ae2f01b86837b0c4bd1da28e8",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/zenazn/goji",
+			"repository": "https://github.com/zenazn/goji",
+			"revision": "bf843a174a08e846246b8945f8a9a853d84a256a",
+			"branch": "master"
+		},
+		{
+			"importpath": "golang.org/x/crypto/ssh/terminal",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "3760e016850398b85094c4c99e955b8c3dea5711",
+			"branch": "master",
+			"path": "/ssh/terminal"
+		},
+		{
+			"importpath": "golang.org/x/net/context",
+			"repository": "https://go.googlesource.com/net",
+			"revision": "c92cdcb05f66ce5b61460e23498d2dc5fcf69aaf",
+			"branch": "master",
+			"path": "/context"
+		},
+		{
+			"importpath": "golang.org/x/net/http2",
+			"repository": "https://go.googlesource.com/net",
+			"revision": "c92cdcb05f66ce5b61460e23498d2dc5fcf69aaf",
+			"branch": "master",
+			"path": "/http2"
+		},
+		{
+			"importpath": "golang.org/x/net/websocket",
+			"repository": "https://go.googlesource.com/net",
+			"revision": "c92cdcb05f66ce5b61460e23498d2dc5fcf69aaf",
+			"branch": "master",
+			"path": "/websocket"
+		},
+		{
+			"importpath": "gopkg.in/bluesuncorp/validator.v5",
+			"repository": "https://gopkg.in/bluesuncorp/validator.v5",
+			"revision": "d5acf1dac43705f8bfbb71d878e290e2bed3950b",
+			"branch": "master"
+		}
+	]
+}
